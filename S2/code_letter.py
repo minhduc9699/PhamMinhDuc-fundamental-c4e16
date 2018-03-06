@@ -1,7 +1,7 @@
 fontC = int(input('chose font size for the letter C:'))
 fontO = int(input('chose font size for the letter O:'))
-fontD = int(input('chose font size for the letter D: '))
-fontE = int(input('chose font size for the letter E: '))
+fontD = int(input('chose font size for the letter D:'))
+fontE = int(input('chose font size for the letter E:'))
 
 
 ### Letter C:

@@ -3,7 +3,6 @@ from turtle import *
 shape('arrow')
 color('red')
 speed(-1)
-
 penup()
 goto(-100,100)
 pendown()
