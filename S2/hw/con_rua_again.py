@@ -39,36 +39,4 @@ for l in range(so_canh):
         left(360/so_canh)
     so_canh -= 1
 
-
-
-
-
-
-
-
-
-
-
-
-
 mainloop()
-
-'''
-from turtle import *
-color("red")
-def draw(deg):
-    left(deg)
-    left(30)
-    forward(50)
-    right(60)
-    forward(50)
-    right(120)
-    forward(50)
-    right(60)
-    home()
-
-for  i in range(0,360,90):
-    draw(i)
-
-mainloop()
-'''
