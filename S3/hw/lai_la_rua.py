@@ -23,6 +23,7 @@ pendown()
 l = 0
 for i in range(5):
     while l < len(mau):
+        color(mau[l])
         fillcolor(mau[l])
         l += 1
         begin_fill()
