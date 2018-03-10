@@ -9,15 +9,16 @@ for i in range(number_of_quizz):
 
 playing = True
 while playing:
-    random_quizz = quizz[randint(0,len(quizz)-1)]
-    char = list(random_quizz)
-    shuffle(char)
-    print(*char)
-
-    key = input('enter your awnser: ')
-    if key == random_quizz:
-        print('Bingo!!')
-        print('Next quizz:')
-    else:
-        print(':(')
-        phaying = False
+    print('lest play, there are %d quizz' % number_of_quizz)
+    for i in range(number_of_quizz):
+        random_quizz = quizz[randint(0,len(quizz)-1)]
+        char = list(random_quizz)
+        shuffle(char)
+        print(*char)
+        key = input('enter your awnser: ')
+        if key == random_quizz:
+            print('Bingo!!')
+        else:
+            print(':(')
+            break
+    break
