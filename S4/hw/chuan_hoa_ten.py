@@ -1,0 +1,6 @@
+name = input('enter your name: ')
+name = name.lower()
+name = name.title()
+name = name.strip()
+name = name.replace('  ', ' ')
+print('updated: %s' % name )
