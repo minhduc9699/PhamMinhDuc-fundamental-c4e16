@@ -1,3 +1,4 @@
+#ex1
 def chuan_hoa_ten():
     name = input('enter your name: ')
     name = name.lower()
@@ -6,7 +7,7 @@ def chuan_hoa_ten():
     for i in range(len(name)):
         name = name.replace('  ', ' ')
     print('updated:', name)
-
+#ex2
 def chuan_hoa_so():
     num = int(input('enter your balance: '))
 
