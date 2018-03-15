@@ -24,10 +24,10 @@ else:
 '''for value in person.values():
     print(value)
 '''
-'''
+
 for key, value in person.items():
     print(key, value)
-'''
+
 
 
 #U
