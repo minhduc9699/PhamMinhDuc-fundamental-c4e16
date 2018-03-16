@@ -21,5 +21,5 @@ inventory['backpack'].remove('dagger')
 print_inventory()
 
 #add a num
-inventory['gold'] = [500, 50]
+inventory['gold'] += 50
 print_inventory()
