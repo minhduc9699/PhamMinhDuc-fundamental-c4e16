@@ -1,3 +1,14 @@
+from pymongo import MongoClient
+
+mongo_uri = "mongodb://admin:admin@ds117729.mlab.com:17729/c4e16"
+
+client = MongoClient(mongo_uri)
+
+db = client.get_default_database()
+
+teencodes = db['teencodes']
+
+
 teencode  = {
     'hc' : 'học',
     'ng' : 'người',
@@ -22,3 +33,6 @@ while True:
             print('updated')
         else:
             break
+
+#update db
+teencodes.insert_one(teencode)
