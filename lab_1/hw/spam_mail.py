@@ -15,7 +15,7 @@ reasons = ['đau bụng', 'ẩy chỉa', 'Ebola', 'đau tay', 'đến ngày dâu
 reason = choice(reasons)
 html_to_send = html_content.replace('{sickness}', reason)
 gmail = GMail('tuananhc4e16@gmail.com', '01662518199')
-msg = Message('Hello c4e', to= 'boykolz969@gmail.com', html= html_to_send)
+msg = Message('Hello c4e', to= 'techkidsc4e16@gmail.com', html= html_to_send)
 
 #gui mail vao 1 khung gio nhat dinh
 while True:
